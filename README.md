@@ -8,3 +8,5 @@
 #### 5. sudo docker rm mysql : 도커 프로세스 완전 삭제
 #### 6. sudo docker rmi mysql : 도커 이미지 삭제
 옵션 : -d : detach , -p 3306:3306 : 포트 앞의것은 host, 뒤의것 docker container 
+
+#### 7. sudo docker exec -it mysql_dev bash : mysql 실행
